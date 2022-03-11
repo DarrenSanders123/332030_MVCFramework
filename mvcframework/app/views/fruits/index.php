@@ -15,9 +15,9 @@ $fmt = numfmt_create('nl_NL', NumberFormatter::CURRENCY);
         foreach ($data['fruits'] as $fruit): ?>
             <tr>
                 <td><?= $fruit->id ?></td>
-                <td><?= $fruit->name ?></td>
-                <td><?= $fruit->color ?></td>
-                <td><?= numfmt_format_currency($fmt, amount: $fruit->price, currency: 'euro') ?></td>
+                <td><?= $fruit->naam ?></td>
+                <td><?= $fruit->kleur ?></td>
+                <td><?= numfmt_format_currency($fmt, amount: $fruit->prijs, currency: 'euro') ?></td>
             </tr>
         <?php endforeach;
     } ?>
