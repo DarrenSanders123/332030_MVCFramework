@@ -2,7 +2,7 @@
 
 ?>
 
-<h1>Fruit overzicht</h1>
+<h1>Countries</h1>
 <table>
     <tr>
         <th>Id</th>

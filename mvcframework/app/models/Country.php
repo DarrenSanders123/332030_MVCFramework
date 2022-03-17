@@ -9,7 +9,7 @@ class Country
 
 
         foreach ($result as $country) {
-            $pop = number_format($country->population);
+            $pop = number_format($country->population, 0, ",", ".");
             $html .= "<tr>
                 <td>$country->id</td>
                 <td>$country->name</td>
