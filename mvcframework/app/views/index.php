@@ -9,3 +9,4 @@ foreach ($data['users'] as $user) {
 HOME PAGE
 <br>
 <a href="./fruits">Fruits</a>
+<a href="./countries">Countries</a>
